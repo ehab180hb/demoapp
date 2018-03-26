@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res)=> {
-	const version = { current: 'v2' };
+	const version = { current: 'v3' };
 	res.status(200).json(version);
 });
 
